@@ -47,8 +47,8 @@
         - git
         - libreadline-dev 
         - zlib1g-dev 
-        - libssl-dev 
         - libbz2-dev 
         - libsqlite3-dev
+        - libssl1.0-dev
 
   when: python3_pyenv != None
