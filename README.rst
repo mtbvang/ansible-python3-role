@@ -40,6 +40,7 @@ This role is also available on `Ansible Galaxy`_.
 Role Variables
 ==============
 
+- ``python3_version``: Python version to install with OS package manager and what python3_command gets set to by default.
 - ``python3_command``: Python command name
 - ``python3_bashrc``: login file to modify; defaults to ``bash_profile``
 - ``python3_local``: local binary directory; system-dependent

@@ -27,7 +27,7 @@
         - name: update pyenv
           command: pyenv update
     
-    - name: install Python
+    - name: install Python with pyenv
       block:      
         - name: install Python
           command: "pyenv install {{ python3_pyenv }}"
